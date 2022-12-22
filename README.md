@@ -1,34 +1,204 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tikitoko (Frontend)
 
+<!-- Logo -->
+<div align="center">
+<img src="./src/documentation/logo.png" align="center" width="200" height="auto" />
+</div>
+
+<!-- Table of Contents -->
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#screenshoots">Screenshoots</a></li>
+    <li><a href="#related-project">Related Projects</a></li>
+    <li><a href="#meet-the-teams">Meet The Teams</a></li>
+  </ol>
+</details>
+
+<!-- About The Project -->
+## About The Project
+Peworld is an application portal that provides an easy way to find jobs and keep records of your experience, skills, education, and portfolio. On the other side, employers can post their vacancies on this app and invite interested candidates for interviews. All users can see the whole process through a detailed job description. This app was built using NextJs.
+
+### Built With
+This app was built with some technologies below:
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://reactjs.org/)
+- [Socket.io](https://socket.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://axios-http.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Getting Started -->
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+This is an example of how to list things you need to use the software and how to install them.
+
+* [Node.js](https://nodejs.org/en/download/)
+* [React.js](https://reactjs.org/docs/create-a-new-react-app.html)
+* [Socket.io](https://socket.io/docs/v4/client-api/)
+
+### Installation
+
+- Clone the repository
+```
+git clone https://github.com/brndnwjy/tikitoko-app
+```
+- Go to repository folder
+```
+cd tikitoko-app
+```
+- Install Module
+```
+npm install / npm i
+```
+- Connect with database
+- <a href="#setup-env-example">Setup .env</a>
+- Type ` npm run dev` To Start Development
+- Type ` npm run start` To Start Production
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Setup .env example
+
+Create .env file in your root project folder.
+
+```env
+# app
+BACKEND_APP_API_URL = [API_URL]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- Contributing -->
+## Contributing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+<!-- Screenshoots -->
+## Screenshoots
+<table>
+  <tr>
+    <td><image src="./src/documentation/register-b.jpeg" alt="Register - Buyer" width=100% ></td>
+    <td><image src="./src/documentation/login-b.jpeg" alt="Login - Buyer" width=100%/></td>
+  </tr>
+  <tr>
+    <td align="center">Register (Buyer)</td>
+    <td align="center">Login (Buyer)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/register-s.jpeg" alt="Register - Seller" width=100% ></td>
+    <td><image src="./src/documentation/login-s.jpeg" alt="Login - Seller" width=100%/></td>
+  </tr>
+  <tr>
+    <td align="center">Register (Seller)</td>
+    <td align="center">Login (Seller)</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/home.jpeg" alt="Homepage" width=100%></td>
+    <td><image src="./src/documentation/search.jpeg" alt="Searchpage" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Homepage</td>
+      <td align="center">Search Result</td>
+  </tr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <tr>
+    <td><image src="./src/documentation/product-detail.jpeg" alt="Product Detail" width=100%></td>
+    <td><image src="./src/documentation/chat.jpeg" alt="Chat page" width=100%/></td>
+  </tr>
+   <tr>
+    <td align="center">Product Detail</td>
+    <td align="center">Chat Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/mybag.jpeg" alt="Mybag" width=100%></td>
+    <td><image src="./src/documentation/checkout.jpeg" alt="Checkout" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">My Bag</td>
+       <td align="center">Checkout</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/profile-b.jpeg" alt="Profile" width=100%></td>
+    <td><image src="./src/documentation/profile-b-address.jpeg" alt="Profile - Address" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Profile (Buyer)</td>
+     <td align="center">Profile (Buyer) - Address Sect.</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/profile-b-all-order.jpeg" alt="Profile - Order" width=100%></td>
+    <td><image src="./src/documentation/profile-b-unpaid-order.jpeg" alt="Profile - Cancel Order" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Profile (Buyer) - Order Sect.</td>
+     <td align="center">Profile (Buyer) - Cancel Order Sect.</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/profile-s.jpeg" alt="Profile (Seller)" width=100%></td>
+    <td><image src="./src/documentation/profile-s-list-product.jpeg" alt="Profile (Seller) - Product List" width=100%></td>    
+  </tr>
+  <tr>
+     <td align="center">Profile (Seller)</td>
+     <td align="center">Profile (Seller) - List Product</td>
+  </tr>
+  
+  <tr>
+    <td><image src="./src/documentation/profile-s-new-product.jpeg" alt="Profile (Seller) - New Product" width=100%></td>
+    <td><image src="./src/documentation/profile-s-order.jpeg" alt="Profile (Seller) - Order" width=100%></td>    
+  </tr>
+  <tr>
+     <td align="center">Profile (Seller) - New Product</td>
+     <td align="center">Profile (Seller) - Order</td>
+  </tr>
+</table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<!-- Related Projects -->
+## Related Project
+:rocket: [`Tikitoko (Backend)`](https://github.com/brndnwjy/tikitoko-api)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+:rocket: [`Tikitoko App Demo`](https://tikitoko.netlify.app)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:rocket: [`Tikitoko (Admin)`](https://github.com/brndnwjy/tikitoko-admin)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
